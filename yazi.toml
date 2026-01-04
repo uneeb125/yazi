@@ -2,24 +2,20 @@
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 "$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
 
-[mgr]
+[manager]
 ratio          = [ 2, 5, 5 ]
 sort_by        = "natural"
 sort_sensitive = false
-sort_reverse 	 = false
+sort_reverse   = false
 sort_dir_first = true
 sort_translit  = false
-linemode       = "none"
+linemode       = "git"
 show_hidden    = false
 show_symlink   = true
 sync_cwd	   = true
 scrolloff      = 5
 mouse_events   = [ "click", "scroll" ]
 title_format   = "Yazi: {cwd}"
-
-[manager]
-sync_cwd = true
-linemode = "folder_size"
 
 
 [preview]

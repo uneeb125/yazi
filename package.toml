@@ -1,17 +1,17 @@
 [[plugin.deps]]
 use = "KKV9/compress"
-rev = "c264639"
-hash = "e17c11b605d989568a1d1741ca17c584"
+rev = "f9208fe"
+hash = "45791332b981cefd629e31c8bc1df4dd"
 
 [[plugin.deps]]
 use = "pirafrank/what-size"
-rev = "d896656"
-hash = "62251f94eb67648d42cdfcfb8be0fad2"
+rev = "6fd634a"
+hash = "c740548feff5d3523e4633363541fcd1"
 
 [[plugin.deps]]
 use = "lpnh/fr"
-rev = "a60466e"
-hash = "ae6f2fb9ea03527e3a367a9faf2690ac"
+rev = "aa88cd4"
+hash = "8b0e87c3176e0d44f79a8656f79f0fa"
 
 [[plugin.deps]]
 use = "TD-Sky/sudo"
@@ -19,14 +19,14 @@ rev = "86205aa"
 hash = "9628b660afb192d32f2ea5f6634d3e72"
 
 [[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "03cdd4b"
+hash = "36a484acf6a0a0219c543ccb4cee218f"
+
+[[plugin.deps]]
 use = "ktunprasert/git-files"
 rev = "c7289ad"
 hash = "cdb1a69bed63211c75b72521bbab875d"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:git"
-rev = "eaf6920"
-hash = "27ca02f49fd236b5cc7bf03c243859fe"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
