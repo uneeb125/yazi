@@ -1,3 +1,29 @@
+[git]
+
+[CODES.ignored]
+fg = "darkgray"
+sign = "⊘ "
+
+[CODES.untracked]
+fg = "magenta"
+sign = "? "
+
+[CODES.modified]
+fg = "yellow"
+sign = "✎ "
+
+[CODES.added]
+fg = "green"
+sign = "+ "
+
+[CODES.deleted]
+fg = "red"
+sign = "- "
+
+[CODES.updated]
+fg = "yellow"
+sign = "↻ "
+
 [filetype]
 
 rules = [
