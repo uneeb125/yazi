@@ -27,8 +27,8 @@ keymap = [
 	{ on = "<Up>",   run = "arrow prev", desc = "Previous file" },
 	{ on = "<Down>", run = "arrow next", desc = "Next file" },
 
-	{ on = "K",     run = "arrow -30%",  desc = "Move cursor up half page" },
-	{ on = "J",     run = "arrow 30%",   desc = "Move cursor down half page" },
+	{ on = "K",     run = "arrow -10%",  desc = "Move cursor up half page" },
+	{ on = "J",     run = "arrow 10%",   desc = "Move cursor down half page" },
 	{ on = "<C-b>", run = "arrow -100%", desc = "Move cursor up one page" },
 	{ on = "<C-f>", run = "arrow 100%",  desc = "Move cursor down one page" },
 
@@ -382,7 +382,7 @@ keymap = [
 	{ on = "<Down>", run = "arrow next", desc = "Next line" },
 
 	# Filtering
-	{ on = "f", run = "filter", desc = "Filter help items" },
+	# { on = "f", run = "filter", desc = "Filter help items" },
 ]
 
 
@@ -422,3 +422,14 @@ desc = "Search file by content (rg)"
 on = ["f", "a"]
 run = "plugin fr rga"
 desc = "Search file by content (rga)"
+
+[[mgr.prepend_keymap]]
+on   = [ "f", "d" ]
+run  = "plugin fg --args='fzf'"
+desc = "Fuzzy find directories only"
+
+
+[[mgr.prepend_keymap]]
+on   = [ "f", "f" ]
+run  = "filter --smart"
+desc = "Filter files"
