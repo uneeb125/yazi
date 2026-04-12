@@ -153,6 +153,11 @@ previewers = [
 	{ url = "*", run = "file" },
 ]
 
+[[plugin.prepend_previewers]]
+mime = "text/*"
+# Calls bat, forces colors, and removes the grid/header so it fits nicely in the preview pane
+run = 'piper -- bat --style=plain --color=always "$1"'
+
 [input]
 cursor_blink = false
 cd_title  = "Change directory:"

@@ -4,3 +4,5 @@ require("zoxide"):setup({
 
 require("git"):setup()
 
+require("fuse-archive"):setup()
+

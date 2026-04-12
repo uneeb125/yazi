@@ -1,3 +1,6 @@
+[flavor]
+dark = "catppuccin-mocha"
+
 [git]
 
 [CODES.ignored]
