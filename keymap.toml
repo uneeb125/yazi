@@ -7,8 +7,8 @@
 
 keymap = [
 	# --- THIS IS THE CORRECTED PART ---
-	{ on = "<C-n>", run = "shell --orphan 'foot tmux' --", desc = "Open new terminal in CWD" },
-	{ on = "<C-y>", run = "shell --orphan 'foot yazi' --", desc = "Open new yazi in CWD" },
+	{ on = "<C-n>", run = "shell --orphan 'kitty tmux' --", desc = "Open new terminal in CWD" },
+	{ on = "<C-y>", run = "shell --orphan 'kitty yazi' --", desc = "Open new yazi in CWD" },
 	{ on = "<Esc>", run = "escape",             desc = "Exit visual mode, clear selection, or cancel search" },
 	{ on = "<C-[>", run = "escape",             desc = "Exit visual mode, clear selection, or cancel search" },
 	# { on = "<S-q>",     run = "quit",               desc = "Quit the process" },
