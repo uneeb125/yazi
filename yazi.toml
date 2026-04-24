@@ -69,7 +69,7 @@ rules = [
 	{ mime = "application/pdf", use = [ "zathura", "open", "reveal" ] },
 
 	# Documents (Force xdg-open via the "open" opener)
-	{ url = "*.{doc,docx,xls,xlsx,ppt,pptx,odt,ods,odp,epub,mobi,rtf,csv}", use = [ "open", "reveal" ] },
+	{ url = "*.{doc,docx,xls,xlsx,ppt,pptx,odt,ods,odp,epub,mobi,rtf}", use = [ "open", "reveal" ] },
 
 	# Text
 	{ mime = "text/*", use = [ "edit", "reveal" ] },
