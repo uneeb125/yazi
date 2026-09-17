@@ -142,6 +142,7 @@ keymap = [
 	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
 	{ on = [ "g", "p" ],       run = "cd ~/Pictures",   desc = "Go ~/Pictures" },
 	{ on = [ "g", "r" ],       run = "cd ~/Vault",   desc = "Go ~/Vault" },
+	{ on = [ "g", "w" ],       run = "cd ~/Vault/PSU",   desc = "Go ~/Vault/PSU" },
 	{ on = [ "g", "i" ],       run = "cd ~/Vault/ISU",   desc = "Go ~/Vault/ISU" },
 	{ on = [ "g", "a" ],       run = "cd ~/Archive/",   desc = "Go ~/Archive/" },
 	{ on = [ "g", "t", "t" ],       run = "cd ~/temp/",   desc = "Go ~/temp/" },
